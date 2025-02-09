@@ -1,0 +1,329 @@
+.Dropdown-placeholder { width: 5rem; font-size: 1rem !important; } .IndividualText { display: inline; font-size: 1rem !important; } .ShopResumeButton { margin: .8rem; padding: 1.1rem; font-size: 1rem !important; } .SidebarMenuTitle { cursor: pointer; display: flex; padding: .5rem 1.5rem .5rem .6em; font-size: 1.05rem !important; } .ShopBody { --shopHeight: max(38rem,80dvh - 8rem); background-color: #55555575 !important; border: 3px solid var(--near-black) !important; border-radius: 0rem !important; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); display: flex; flex-direction: row; font-size: .9rem !important; height: calc(80vw - 8rem) !important; margin-right: 0; max-height: 80vh !important; overflow: visible !important; width: calc(85vw - 8rem) !important; } .ShopItem { align-items: stretch; align-self: stretch; background-color: #44444475 !important; border: 2.5px solid var(--near-black) !important; border-radius: 0rem !important; cursor: pointer; display: flex; flex-direction: column; flex-grow: 1; margin: .5rem; max-width: 20%; min-width: 10rem; position: relative; width: 15% } .SelectedShopItem { border: 1px solid gold } .ShopItemHeaderDiv { background-color: #333 !important; border-radius: 0rem !important; text-align: center } .SelectedItemViewer { background-color: #44444475 !important; border: 3px solid var(--near-black) !important; border-radius: 0rem !important; width: 20rem } .ShopSidebarMenu { align-items: stretch; background-color: #55555590 !important; border: solid 2px #222 !important; display: flex; flex-direction: column; flex-grow: 0; flex-shrink: 0; font-size: 1.3rem !important; width: 12rem } .SidebarMenu { align-items: stretch; display: flex; flex-direction: column; justify-content: center; background-color: #44444475 !important; } .ActiveSidebarMenuTitleTitle { background-color: #22222275 !important; border-bottom: 1px solid var(--primary-1); border-top: 1px solid var(--primary-1); color: var(--secondary-1) }
+
+.ShopBlock {
+    font-size: 1.5rem;
+}
+
+
+
+.TopScreenCurrencyDiv {
+    background-color: #44444475 !important;
+    border-radius: 0rem !important;
+}
+
+
+.MenuDiv {
+    background-color: #44444475 !important;
+    border-radius: 0rem !important;
+}
+
+
+.MenuHeader {
+    background-color: #444444bd !important;
+    border-radius: 0rem !important;
+}
+
+.SelectedHeaderCat {
+    background-color: #0AFFFF !important;
+    color: #e3d221f5 !important;
+    border-radius: 0rem !important;
+}
+
+
+.MenuCategoryContainer {
+    border-radius: 0rem !important;
+    background-color: #44444475 !important;
+}
+
+.LBTablePlaceTH {
+    background-color: #44444475 !important;
+}
+
+.LBTablePlayerTH {
+    background-color: #44444475 !important;
+}
+
+LBTableValueTH {
+    background-color: #44444475 !important;
+}
+	
+.LBTableTD {
+    background-color: #44444475 !important;
+}
+
+.LBTable {
+    background-color: #44444475 !important;
+}
+
+.LBTableTHead {
+    background-color: #44444475 !important;
+}
+
+
+.LBTableWrapper {
+    background-color: #44444475 !important;
+    border-radius: 0rem !important;
+}
+
+
+.IndividualKillWrapper {
+    border-radius: 0rem !important;
+}
+
+
+.BlueButton {
+    background-color: green;
+    border-radius: 0;
+}
+
+.ButtonBottomBorder {
+    height: 0px;
+    --buttonHoverColour: darkgreen !important;
+
+}
+
+
+
+.InviteLinkBox {
+    background-color: #444444b8 !important;
+    border-radius: 0rem !important;
+}
+
+
+.CenteredDiv .CenteredDivUpper .ActionShortcutBar {
+    background-color: #55555575 !important;
+    border-radius: 0 !important;
+}
+
+.PopupNoConflict .PopupWrapper {
+
+    position: absolute !important;
+}
+
+/*Minecraft texture pack made by Ismail Haniyah and Kay- css made only by Kay */
+
+
+@font-face { font-family: 'Minecraftia'; font-style: normal; font-weight: 400; src: local(''), url('https://fonts.cdnfonts.com/css/minecraftia') format('woff'); } .FullyFancyText { -webkit-text-stroke: none !important; -webkit-text-stroke: none !important; font-weight: 10 !important; text-shadow: none !important; } .SmallTextBold { font-weight: 10 !important; } .TextInput { background: #6f6f6f !important; border: 1px solid #000 !important; border-radius: 0rem !important; box-shadow: none !important; color: #fff; font-family: 'Minecraftia', var(--root-font-family) !important; outline: none; text-align: center; font-size: 1rem !important; } .SmallTextBold { font-weight: 10 !important; text-shadow: none !important; } .SmallTextBold,.SmallTextLight { text-shadow: none !important; } .SelectLobbyOuterWrapper .PlayPopupBodyButton { align-items: center; display: flex; flex-direction: column; font-size: 1.1rem !important; justify-content: center; margin: 1rem 1rem 0; padding: .9rem 0; width: 10rem } .SelectLobbyOuterWrapper .SelectLobbyHeader { align-items: center; display: flex; font-size: 1.8rem !important; justify-content: center; margin: auto; padding-bottom: .5rem; position: relative } .SelectLobbyOuterWrapper .RecentlyPlayedLobbiesHeader { font-size: 1rem !important; margin-bottom: .5rem } .SelectLobbyOuterWrapper .RecentlyPlayedLobby { border-bottom: 1px solid transparent; border-top: 1px solid transparent; cursor: pointer; font-size: .8rem !important; font-weight: 100 !important; line-height: 1rem; padding: .5rem 0 } .Header .TitleContainer .Title { color: #fff; font-size: 3.7rem; position: relative; white-space: pre-line; } .Header .TitleContainer .LogoContainer { align-items: center; display: flex; height: 4rem; justify-content: center; position: relative; width: 5rem; }
+
+
+
+.GridItemSlots {
+    grid-template-columns: repeat(12, 1fr) !important;
+}
+/*Minecraft texture pack made by Ismail Haniyah and Kay- css made only by Kay */
+
+
+@font-face { font-family: 'Minecraftia'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.cdnfonts.com/s/31977/Minecraftia.woff) format('woff'); } .WholeAppWrapper { font-family: "minecraftia", sans-serif; /*Main, Fallback, please tell me if it only uses Fallback font*/ } .HomeBackground{ background-image: url('https://i.imgur.com/O0i5ljO.png') !important; } .Header .HeaderLeftContainer .GoogleLoginButton { align-items: center; background-color: #fff; border-radius: 0rem !important; color: #000; cursor: pointer; display: flex; font-size: 1rem !important; font-weight: 0 !important; gap: .4rem; height: 2rem; justify-content: center; padding: .5rem 1rem; transition: all .2s } .Header .HeaderLeftContainer .PlayerNamePreview { align-items: center; background-color: #55555575 !important; border-radius: 0rem !important; color: #fff !important; cursor: pointer; display: flex; font-size: 1rem !important; font-weight: 10 !important; height: 3rem; justify-content: center; padding: 0 1rem } .Header .HeaderRightContainer .HeaderRight .HeaderRightBackground { background-color: #55555575 !important; border-radius: 0rem !important; opacity: 1 !important; height: 100%; left: 0; position: absolute; top: 0; width: 100%; z-index: 1 } .HomeScreenBottomLeft .BottomRightInfoBox .BottomRightInfoBoxBackground { background-color: #55555575 !important; height: 100%; left: 0; opacity: 1 !important; position: absolute; top: 0; width: 100%; z-index: 1; } .HomeScreenBottomLeft .BottomRightInfoBox { border-radius: 0rem !important; color: #fff; cursor: pointer; font-size: 1rem !important; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; overflow: hidden; padding: .4rem 1rem; position: relative; text-decoration: none; transition: all .2s; width: -webkit-fit-content; width: -moz-fit-content; width: fit-content } .GameCardContainer .AvailableGame { background-color: rgba(0,0,0,.5); background-position: 50%; background-size: cover; border-radius: 0rem !important; box-shadow: none; box-sizing: border-box; cursor: pointer; height: 100%; position: relative; transition: transform .2s,margin .2s; width: 100% } .GameCardContainer .AvailableGame .AvailableGameTextWrapper .AvailableGameTextWrapperBackground { background-color: #555555 !important; border-radius: 0rem !important; height: 100%; left: 0; opacity: .75 !important; position: absolute; top: 0; width: 100% } .GameCardContainer .AvailableGame .AvailableGameTextWrapper { align-items: flex-end; bottom: 0; color: #fff; display: flex; font-size: 1rem !important; justify-content: center; left: 0; padding: .1rem 0; position: absolute; width: 100%; z-index: 1 } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionPreview .SectionPreviewValue { align-items: center; display: flex; flex-grow: 1; font-size: 1rem !important; font-weight: 10 !important; justify-content: center } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsHomeScreen .FriendProfilePreviewLeft img { border-color:#f0b232 !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .Friend
+
+.IsHomeScreen .FriendProfilePreviewStatus { color: #fac14a !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsPlaying .FriendProfilePreviewLeft img { border: .2rem solid #23a55a !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsPlaying .FriendProfilePreviewStatus { color: #31c771 !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsOffline .FriendProfilePreviewLeft { opacity: .5 !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsOffline .FriendProfilePreviewLeft img { border: .2rem solid #80848e !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsOffline .FriendProfilePreviewLeft .FriendProfilePreviewStatus { color: #9499a5 !important } .rangeslider { background: #aaa !important; border-radius: 0rem !important; margin: 20px 0; position: relative; touch-action: none } .rangeslider,.rangeslider .rangeslider__fill { border-radius: 0rem !important; box-shadow: none !important; display: block } .rangeslider .rangeslider__handle { background: #6f6f6f !important; border: 2px solid; border-color: #aaa #555 #555 #aaa !important; outline: #000 !important; border-radius: 0rem !important; box-shadow: none !important; cursor: pointer; display: inline-block; position: absolute } .rangeslider .rangeslider__handle .rangeslider__active { opacity: 1 } .rangeslider .rangeslider__handle-tooltip { background-color: #55555580 !important; color: #fff !important; display: inline-block; font-size: 1rem !important; font-weight: 10 !important; height: 40px; left: 50%; position: absolute; text-align: center; transform: translate3d(-50%,0,0); transition: all .5s ease-in; width: 40px } .rangeslider .rangeslider__handle-tooltip span { display: inline-block; line-height: 100%; margin-top: 12px } .rangeslider .rangeslider__handle-tooltip:after { content: " "; height: 0; position: absolute; width: 0 } .rangeslider-horizontal { height: 12px } .rangeslider-horizontal .rangeslider__fill { background-color: #555 !important; height: 100%; top: 0 } .rangeslider-horizontal .rangeslider__handle { height: 30px; top: 50%; transform: translate3d(-50%,-50%,0); width: 30px } .rangeslider-horizontal .rangeslider__handle:after { background-color: #dadada !important; box-shadow: inset 0 1px 3px rgba(0,0,0,.4),inset 0 -1px 3px rgba(0,0,0,.4); content: " "; height: 16px; left: 50%; position: absolute; top: 50%; transform: translate(-50%,-50%); width: 16px } .rangeslider-horizontal .rangeslider__handle-tooltip { top: -55px } .rangeslider-horizontal .rangeslider__handle-tooltip:after { border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid rgba(0,0,0,.8); bottom: -8px; left: 50%; transform: translate3d(-50%,0,0) } .rangeslider-vertical { background-color: transparent; height: 100px; margin: 20px auto; max-width: 10px } .rangeslider-vertical .rangeslider__fill,.rangeslider-vertical .rangeslider__handle { position: absolute } .rangeslider-vertical .rangeslider__fill { background-color: #555 !important; bottom: 0; box-shadow: none !important; width: 100% } .rangeslider-vertical .rangeslider__handle { box-shadow: none !important; height: 10px; left: -10px; width: 30px } .rangeslider-vertical .rangeslider__handle-tooltip { left: -100%; top: 50%; transform: translate3d(-50%,-50%,0) } .rangeslider-vertical .rangeslider__handle-tooltip:after { border-bottom: 8px solid transparent; border-left: 8px solid rgba(0,0,0,.8); border-top: 8px solid transparent; left: 100%; top: 12px } .rangeslider-reverse.rangeslider-horizontal .rangeslider__fill { right: 0 } .rangeslider-reverse.rangeslider-vertical .rangeslider__fill { bottom: inherit; top: 0 } .rangeslider__labels { position: relative } .rangeslider-vertical .rangeslider__labels { height: 100%; left: 10px; list-style-type: none; margin: 0 0 0 24px; padding: 0; position: relative; text-align: left; width: 250px } .rangeslider-vertical .rangeslider__labels .rangeslider__label-item { position: absolute; transform: translate3d(0,-50%,0) } .rangeslider-vertical .rangeslider__labels .rangeslider__label-item:before { background: #000; content: ""; height: 2px; left: -14px; position: absolute; top: 50%; transform: translateY(-50%); width: 10px; z-index: -1 } .rangeslider__labels .rangeslider__label-item { cursor: pointer; display: inline-block; font-size: 14px; position: absolute; top: 10px; transform: translate3d(-50%,0,0) } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner { border-radius: 0rem !important; display: flex; flex-direction: column; height: 100%; overflow: hidden; background-color: #55555575 !important; } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody { align-items: start; background-color: #55555575 !important; display: flex; flex-direction: column; flex-grow: 1; justify-content: start; overflow: hidden; padding-top: .5rem; transition: background-color var(--animation-timing); width: 100% } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarFooter .AddFriendButton { align-items: center; background-color: #55555575 !important; cursor: pointer; display: flex; gap: .5rem; height: 4rem; justify-content: center; transition: background-color var(--animation-timing),color .2s; width: 100% } .SocialBarContainer .SocialBarOuter.Expanded .SocialBar .SocialBarInner .SocialBarBody { background-color: #55555575 !important; } .SocialBarContainer .SocialBarOuter.Expanded .SocialBar .SocialBarInner .SocialBarFooter .AddFriendButton { background-color: #55555575 !important; } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarFooter .PlayerSearch .PlayerSearchOverlay.PlayerSearchOverlaySuccess { color: #92D293 !important; font-size: 1rem !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarFooter .PlayerSearch .PlayerSearchOverlay.PlayerSearchOverlayError { align-items: center; color: #B22B27 !important; font-size: 1rem; gap: .5rem } .SocialBarContainer .SocialBarOuter.Expanded .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview .FriendProfilePreviewRight .FriendProfilePreviewStatus { font-size: .75rem !important; font-weight: 10 !important; overflow: hidden; text-overflow: ellipsis; white-space: nowrap } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsHomeScreen .FriendProfilePreviewLeft img { border: .2rem solid #f0b232 !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsHomeScreen .FriendProfilePreviewStatus { color: #f6c86a !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsPlaying .FriendProfilePreviewLeft img { border: .2rem solid #23a55a !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsPlaying .FriendProfilePreviewStatus { color: #30de79 !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsOffline .FriendProfilePreviewLeft img { border: .2rem solid #80848e !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview.IsOffline .FriendProfilePreviewLeft .FriendProfilePreviewStatus { color: #999da8 !important } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview .FriendProfilePreviewLeft img { -ms-interpolation-mode: nearest-neighbor; border-radius: 0rem !important; box-sizing: border-box; height: 100%; image-rendering: optimizeSpeed; image-rendering: -o-crisp-edges; image-rendering: pixelated; image-rendering: optimize-contrast; transition: border .3s; width: 100% } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionBody .PlayerRow .FriendProfilePreview .FriendProfilePreviewLeft { background-color: gray; border-radius: 0rem !important; flex-shrink: 0; height: 2.7rem; overflow: hidden; width: 2.7rem; z-index: 1 } .SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarFooter .PlayerSearch { align-items: stretch; background-color: #55555575 !important; display: flex; gap: .5rem; height: 0; overflow: hidden; padding: 0; position: relative; transition: height .2s,padding .2s } .rangeslider { background: #aaa !important; border-radius: 0rem !important; margin: 20px 0; position: relative; touch-action: none } .rangeslider-vertical .rangeslider__handle { box-shadow: none !important; height: 5px !important; left: 1.8px !important; width: 13px !important; background-color: #747474 !important; border: 2px solid !important; border-color: #aaa #555 #555 #aaa !important; border-radius: 0rem !important; outline: 2px solid #fff !important; } .rangeslider-vertical { background-color: transparent; height: 200px !important; margin: 20px auto; max-width: 20px !important; } .rangeslider-vertical .rangeslider__fill { background-color: #555 !important; bottom: 0; box-shadow: none; width: 100% } .rangeslider,.rangeslider .rangeslider__fill { border-radius: 0rem !important; box-shadow: inset 0 1px 3px rgba(0,0,0,.4); display: block } .rangeslider .rangeslider__handle { background: #fff; border: 1px solid #ccc; border-radius: 0rem !important; box-shadow: 0 1px 3px rgba(0,0,0,.4),0 -1px 3px rgba(0,0,0,.4); cursor: pointer; display: inline-block; position: absolute } .SelectLobbyOuterWrapper { background-color: #212121 !important; border: 5px solid var(--near-black) !important; border-radius: 0rem !important; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); overflow: hidden } .SelectLobbyOuterWrapper .RecentlyPlayedLobbiesWrapper { background-color: #aaaaaa20 !important; padding: 1rem } .Header .HeaderRightContainer .HeaderRight { background-color: #55555575 !important; border-radius: 0rem !important; padding: .4rem 1rem; position: relative } .FloatingActions { align-items: stretch; background-color: #aaa !important; border: 1px solid var(--near-black); border-radius: 0rem !important; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); display: flex; flex-direction: column; height: auto; overflow: hidden; position: fixed } .FloatingActions .FloatingAction { align-items: center; background-color: #aaa !important; color: #fff; display: flex; gap: .5rem; padding: .8rem; transition: background-color,color .1s; width: auto } .tooltip-container { --tooltipBackground: #fff; --tooltipBorder: silver; --tooltipColor: #000; background-color: #aaa !important; border: 1px solid var(--tooltipBorder); border-radius: 0rem !important; box-shadow: 0 2px 4px rgba(0,0,0,.18); color: #fff; display: flex; flex-direction: column; padding: .4rem; transition: opacity .3s; z-index: 9999; font-weight: 10 !important; font-size: 1rem !important; } .tooltip-container { --tooltipBackground: #aaa !important; --tooltipColor: #fff; --tooltipBorder: var(--near-black); border: 1px solid var(--near-black); border-radius: .5rem; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); white-space: pre-line; z-index: 3999 } .MiddleScreenPopup { animation-duration: .3s; animation-fill-mode: backwards; animation-iteration-count: 1; animation-name: PopupAppear; background-color: #444 !important; border: 3px solid #000; border-radius: 0rem; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); color: #fff; left: 50vw; max-width: 80vw; padding: 1em; position: fixed; text-align: center; top: 50vh; top: 50dvh; transform: translate(-50%,-50%) scale(1); z-index: 1; font-size: 1rem !important; }
+
+.SmallTextBold {
+    font-weight: bold !important;
+}
+
+
+.SocialBarContainer .SocialBarOuter.Expanded .SocialBar .SocialBarInner .SocialBarFooter .AddFriendBody {
+    display: flex;
+ }
+
+
+
+.SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarFooter {
+    background-color: #55555575 !important;
+    flex: 0 0 4rem;
+    transition: background-color var(--animation-duration);
+    width: 100%;
+}
+
+
+
+
+.PlayerSearch {
+    align-items: center;
+    background-color: none !important;
+    display: flex;
+    gap: .5rem;
+    height: 3;
+    overflow: visible;
+    padding: inherit;
+    position: relative;
+}
+
+.SocialBarContainer .SocialBarOuter .SocialBar {
+    box-sizing: border-box;
+    height: 100%;
+    padding: var(--social-bar-padding) var(--social-bar-padding) var(--social-bar-padding) 0;
+    position: absolute;
+    right: 0;
+    transition: width var(--animation-duration);
+    width: var(--collapsed-width);
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0px !important;
+    padding-left: 3px !important;
+}
+
+.SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .SocialBarBody .SocialBarBodySection.SectionPreview {
+
+    width: 101% !important;
+}
+
+.SocialBarContainer .SocialBarOuter .SocialBar .SocialBarInner .PlayerRows .PlayerRow {
+
+  */  width: 115% !important; */
+}
+
+
+.SocialBarContainer .SocialBarOuter:not(.Expanded) .SocialBar .SocialBarInner .PlayerRows .PlayerRow {
+    justify-content: center;
+    width: 115% !important;
+
+}
+
+.ProfilePreview {
+
+    transition: background-color 0, opacity .6s;
+
+}
+
+
+.cube {
+
+    transform: none;
+
+}
+
+.TitleContainer{
+    background-image: url("https://i.imgur.com/VQzzTjQ.png") !important;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.LogoContainer{
+    opacity: 0;
+    z-index:0;
+}
+.Title{
+    opacity: 0;
+    z-index:0;
+
+}
+
+.Header {
+    height: auto !important;
+    width: auto !important;
+}
+
+.rangeslider__fill {
+    background-color: red !important);
+
+    color: red !important;
+    background: currentColor !important;
+}
+
+.rc-checkbox-inner {
+    background-color: red !important;
+    border-color: red !important;
+}
+/*Minecraft texture pack made by Ismail Haniyah and Kay*/
+
+
+.HotBar { box-shadow: 0 0 0 4px #000 !important; align-items: center; border-width: 4px !important; border-style: solid; border-color: #939393 #474747 #5d5d5d #939393 !important; display: flex; height: 4rem; justify-content: center; left: 50%; margin-bottom: 0.4rem !important; margin-top: 4rem !important; pointer-events: auto; position: relative; transform: translateX(-50%); width: 46.951rem !important; z-index: 2 } .HotBar .HotBarGameItemsContainer { display: flex; gap: 0rem !important; } .HotBar .HotBarFiller { align-items: center; flex-grow: 1; justify-content: center } .HotBar .HotBarItem { align-items: center; background-color: #aaaaaa25 !important; border-style: solid !important; border-width: 4px !important; border-color: #474747 #888 #888 #474747 !important; border-radius: 0rem !important; color: #fff; cursor: pointer; display: flex; height: calc(3.45rem - 1px) !important; outline: 0px solid #fff !important; position: relative; width: calc(3.425rem - 1px) !important; margin-top: 5.17px !important; } .HotBar .HotBarItem.SelectedItem { background-color: #aaaaaa25 !important; outline: solid 4px #fff !important; margin-bottom: 5px !important; z-index: 1; } .HotBar .HotBarItem.ButtonHotBarItem { align-items: center; display: flex; font-size: 2rem !important; justify-content: center; opacity: 1; pointer-events: auto; transition: opacity .15s; margin-bottom: .4rem !important; } .HotBar .HotBarItem.ButtonHotBarItem.HiddenButtonHotBarItem { opacity: 0; pointer-events: none } .HotBar .HotBarItem .HotbarItemNumber { font-size: 1rem !important; position: absolute; text-align: center; top: -1.8rem; width: 100% } .HotBarButtonPrompt { font-size: 1rem !important; } .SmallTextLight { font-weight: 100 !important; } .ItemAmount { bottom: 0; position: absolute; font-size: 120% !important; right: 5px; transform: translateZ(200px) } .CrossHair { color: #fff; font-size: 1.5rem; font-weight: 100; height: 20px; left: 50%; line-height: 20px; margin: -10px 0 0 -10px; pointer-events: none; position: fixed; text-align: center; top: 50%; width: px; z-index: 1; } .GunCrosshairWrapper { transition: opacity .2s } .GunCrosshair { background-color: #fff; border: 1px solid #000; position: fixed; transition: transform .2s ease-out; z-index: 1; } .GunCrosshairOverlayWrapper { height: 104vh; height: 104dvh; left: 50%; pointer-events: none; position: fixed; top: 50%; transform: translate(-50%,-50%); transition: filter .3s; width: 104vw; width: 104dvw; z-index: 2 } .GunCrosshairOverlayWrapper .GunCrosshairOverlay { background-color: #000; height: 100%; left: 0; -webkit-mask-image: radial-gradient(circle,transparent 40%,#000 41%); mask-image: radial-gradient(circle,transparent 40%,#000 41%); position: absolute; top: 0; width: 100% } .GunCrosshairOverlayWrapper .GunCrosshairOverlayLine1,.GunCrosshairOverlayWrapper .GunCrosshairOverlayLine2 { position: absolute } .GunCrosshairOverlayWrapper .GunCrosshairOverlayLine1 { border-top: 1px dashed #000; height: 1px; left: 0; top: 50%; translate: 0 -25%; width: 100% } .GunCrosshairOverlayWrapper .GunCrosshairOverlayLine2 { border-left: 1px dashed #000; height: 100%; left: 50%; top: 0; translate: -25% 0; width: 1px } .GunCrosshairOverlayWrapper .GunCrosshairOverlayDot { border: 1px solid rgba(204,20,20,.5); border-radius: 50%; box-sizing: border-box; height: 5px; left: 50%; position: absolute; top: 50%; translate: -50% -50%; width: 5px } input { font-family: 'Minecraftia' !important; } .ChatInput { background-color: transparent; border: none; border-radius: 0; color: #fff; flex-grow: 1; font-weight: 100 !important; line-height: 1.3rem; min-width: 0; outline: none; padding: .25rem } .TopLeftElements { display: flex; flex-direction: row; font-size: 1vw; font-size: min(1vw,1.2rem); font-weight: 100 !important; left: 0; position: fixed; top: 0; z-index: 5 } .CantCtrlCrouchIfNotFullscreenComp { background-color: #55555575 !important; border: 3px solid var(--near-black) !important; border-radius: 0rem !important; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); display: flex; flex-direction: column; padding: 2rem !important; } .CantCtrlCrouchHeader { font-size: 1.5rem !important; margin: auto; padding-bottom: 1rem !important; } .CantCtrlCrouchInstructions { font-size: 1.75rem !important; margin: auto; padding-bottom: 1rem !important; } .CantCtrlCrouchSubtext { font-size: .75rem !important; font-weight: 100 !important; margin: auto; padding-bottom: 1.25rem !important; } .CantCtrlCrouchButtonWrapper { margin: auto; } .CantCtrlCrouchButton { font-size: 1rem !important; margin: 1rem !important; } .MakeDiscordReportBackgroundScreen,.MakeReportBackgroundScreen { z-index: 13 }
+
+
+/*Minecraft texture pack made by Ismail Haniyah and Kay- css made only by Kay */
+
+
+.CharCustomisation { background-color: transparent !important; border: 1px solid var(--near-black); border-radius: .5rem; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); color: #fff; display: flex; font-size: 1.5rem; left: 50%; position: absolute; top: auto; transform: translateX(-50%) translateY(-50%) } .CharCustomisationPreview { align-items: center; display: flex; justify-content: center; background-color: #44444475 !important; }
+
+/*Minecraft texture pack made by Ismail Haniyah and Kay- css made only by Kay */
+
+
+.SettingsMenu { background-image: url('https://i.imgur.com/xcKT1Uf.png') !important; background-color: none !important; border: 1px solid var(--near-black); border-radius: .5rem; box-shadow: .2rem .25rem 0 rgba(0,0,0,.32); color: #fff; display: flex; overflow: auto; pointer-events: all; position: relative; z-index: 2; } .SettingsMenuLeft { background-color: #ffffff00 !important; display: flex; flex-direction: column; flex-shrink: 0; font-size: 1rem !important; width: 20rem !important; } .SettingsMenuRight { display: flex; flex-direction: column; font-size: 1rem !important; height: 70vh; height: 90vh !important; position: relative; width: 45vw !important; } .AccountSettings .SetAccountNameDiv .ChooseNameButton { align-items: center; display: flex; font-size: 1.2rem !important; height: 3rem; justify-content: center; margin-top: 1rem; width: 10rem; left: 39.5% !important; } .AccountSettings .AccountSettingsLabel { font-size: 2rem !important; font-weight: 200 !important; margin-bottom: .5rem !important; margin-left: 20.45rem !important; } .SettingsSectionTitle { background-color:#6f6f6f50 !important; border-top: 2px solid #aaa !important; border-left: 2px solid #aaa !important; border-bottom: 4px solid #555 !important; border-right: 2px solid #555 !important; box-shadow: 0 0 0 2px #000 !important; cursor: pointer; padding: 1rem 1rem !important; } .ActiveSettingsSectionTitle { background-color: #55555550 !important; border-top: 2px solid #888 !important; border-left: 2px solid #888 !important; border-bottom: 4px solid #666 !important; border-right: 2px solid #666 !important; color: #ddd !important; } .BloxdDropdownControl { background-color: #444 !important; border-color: #0f0f0f; border-radius: 0 !important; color: #fff; font-size: 1.2em !important; font-weight: 100 !important; padding-right: 6em } .BloxdDropdownMenu { background-color: #6f6f6f !important; border-color: #0f0f0f; border-radius: 0rem !important; color: #fff; font-size: 1em; font-weight: 100 !important; max-height: 13em !important; } .Dropdown-option.is-selected { background-color: #555 !important; color: #ccc !important; } .rangeslider { background: #e6e6e6; border-radius: .5rem; margin: 20px 0; position: relative; touch-action: none; height: 26px !important } .ControlsContainer .ControlRow { background-color: #666 !important; border: 1px solid var(--near-black); border-radius: 0rem !important; margin-bottom: 1rem; overflow: hidden } .ControlsContainer .ControlRow.WarningBorder { border: 1px solid #fc6464 !important; } .ControlsContainer .ControlRow .ControlRowInner { align-items: start; display: flex; padding: 1rem; position: relative; background-color: #444 !important; } .ControlsContainer .ControlRow .ControlRowInner .ControlBindingsContainer .ControlBinding { align-items: center; background-color: #222 !important; border: 1px solid transparent; border-radius: .5rem; box-sizing: border-box; display: flex; justify-content: center; padding: 0 .5rem; pointer-events: none; transition: all .2s } .ControlsContainer .ControlRow .ControlRowWarning { background-color: #fc6464 !important; color: #000; font-size: 1rem; padding: 1rem .5rem !important; text-shadow: 0 0 0 #000 } .InviteLinkInner { background-color: #666 !important; border-color: #000 !important; border-radius: 0rem !important; border-style: solid; border-width: .2rem !important; font-size: 1rem !important; margin-right: 1.5rem; max-width: 100rem !important; overflow-x: auto; padding: .5rem !important; -webkit-user-select: all; user-select: all; white-space: nowrap }
+
+
+
+
+
+
+
+
+/*Minecraft texture pack made by Ismail Haniyah and Kay- css made only by Kay */
+
+
+.CenteredDiv .CenteredDivUpper .HomePagePartyBar.NoActionShortcutBar {
+    border-radius: 0 !important;
+}
+
+
+.CenteredDiv .CenteredDivUpper .HomePagePartyBar {
+    align-items: center;
+    background-color: #55555575 !important;
+    border-radius: 0 !important;	
+   
+}
+
+.JoinPartyAction .JoinPartyHashtag {
+    background-color: #55555575 !important;
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+    color: #a29696b3 !important;
+}
+
+.TextInput {
+    background-color: #55555575 !important;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.JoinPartyAction .JoinPartyButton {
+    border-radius: 0;
+}
+
+
+.JoinPartyButton {
+}
+
+
+.CreatePartyButton {
+   
+    border-radius: 0;
+}
+
+
+
+
+.ButtonBottomBorder, .ButtonTopBorder {
+    height: 0;
+}
+
+
+
+.CraftablesLeftSide {
+    height: 25.2rem;
+    width: 18rem;
+}
+
+
+.CraftableItems {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.CreativeItemSlotsInner {
+    grid-gap: .1rem 0;
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 9.5rem;
+}
+
+.CreativeItemSlots {
+    width: 18rem;
+}
+
+.Inventory { background-color: #c6c6c6 !important; border-radius: .5rem; border-width: .4rem; border-color: #ffffff #555555 #555555 #ffffff !important; box-shadow: 0 0 0 .2rem #000000 !important; flex-shrink: 0; pointer-events: all; position: relative; touch-action: none; z-index: 2; } .InvenItem { content-visibility: auto; align-items: center; background-color: #8b8b8b; border-color: #373737 #ffffff #ffffff #373737 !important; border-radius: 0rem; border-style: solid; border-width: .2rem; contain: strict; display: flex; height: 4rem; justify-content: center; width: 4rem; } .InvenItemUnfilled { -ms-interpolation-mode: nearest-neighbor; background-size: 100% 100%; height: 85%; image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-rendering: -o-crisp-edges; width: 85%; } .CraftableItemNotEnoughIngredients { background-color: #da4d4c !important; border-color: #351b1b #b36969 #b36969 #351b1b; border-style: solid; border-width: .2rem } .CreativeItemSlotsSearchWrapper .CreativeItemSlotsSearch { background-color: #5e5e5e !important; color: white; border: none; padding: 0.5rem; border-radius: 0rem; } .InventoryBackgroundScreen { z-index: 7 } .InventoryWrapper { align-items: center; display: flex; height: 100vh; justify-content: space-between; pointer-events: none; width: 100vw } .InventoryAdOuter { align-items: end; display: flex; flex-grow: 1; height: 100%; pointer-events: none; position: relative; z-index: 1 } .InventoryAd { height: calc(100% - 10rem); position: relative; width: 100% } .InventoryAdInner { align-items: center; display: flex; height: 100%; justify-content: center; left: 0; position: absolute; top: 0; width: 100% }
+
+/*Minecraft texture pack made by Ismail Haniyah and Kay- css made only by Kay */
